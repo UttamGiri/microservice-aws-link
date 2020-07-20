@@ -1,6 +1,35 @@
 
+THIS IS MICROSERVICE PROJECT
 
-1. Register new user
+
+1) CONFIG 
+   PersonalAppApiConfigServer
+
+2) CONFIG CONFIGURATION  (IT IS CALLED INSIDE CONFIG PROJECT THIS IS NOT DEPLOYED  CONFIGURATION IS KEPT IN GIT FOR BUS/REFRESH)
+  PersonalAppConfiguration
+
+3) 
+   DISCOVERY SERVICE
+  PersonalAppDiscoveryService
+
+4).  ZUUL 
+
+  PersonalAppZuulAPIGateway
+
+5) User micro-service
+
+   PersonalAppApiUsers
+
+6) Account Microservice
+
+   PersonalAppAccount
+
+
+
+
+FLOW 
+
+Register new user
 
 a). 
 POST
